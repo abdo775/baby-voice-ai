@@ -10,7 +10,7 @@ import random
 app = Flask(__name__)
 
 # Paths
-MODEL_PATH = r"D:\app\Python\baby_cry_model.h5"
+MODEL_PATH = "baby_cry_model.h5"
 SCALER_PATH = r"D:\app\Python\scaler.pkl"
 ENCODER_PATH = r"D:\app\Python\label_encoder.pkl"
 UPLOAD_FOLDER = "uploads"
